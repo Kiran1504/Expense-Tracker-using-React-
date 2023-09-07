@@ -19,7 +19,7 @@ export default function Table(props) {
   return (
     <>
       <div className="w-full   md:w-full border-2 border-black overflow-hidden h-4/6 max-h-128 m-auto my-2 lg:m-2 bg-zinc-500 rounded-xl">
-        <ul className="max-h-4/6 overflow-scroll">
+        <ul className="max-h-4/6">
           {newtable.map((ele, i) =><DisplayExp key={i} id= {i} e={ele} delexp={delitem} /> )}
         </ul>
       </div>

@@ -44,16 +44,16 @@ function App() {
           <Navbar />
         </div>
         <Routes>
-          <Route exact path="/" Component={() => {
+          <Route exact path="Expense-Tracker-using-React-/" Component={() => {
             return (<div className=" flex overflow-hidden h-4/6 max-h-128 border-2 border-black flex-col-reverse lg:flex-row"><Table plottable={tableitems} newchng={newchanges} budList={budlist} /><Note fun={appendexpense} explist={tableitems} budList={budlist} /></div>)
           }} />
-          <Route exact path="/budget" Component={()=><Budget budgetList = {(budgets)=>{setbudlist((preval)=>{
+          <Route exact path="Expense-Tracker-using-React-/budget" Component={()=><Budget budgetList = {(budgets)=>{setbudlist((preval)=>{
             return {...preval,
             [budgets.cat]:budgets.amt};
 
         })}} />} />
-          <Route exact path="/analysis" Component={() => { return <Analysis lists={tableitems} /> }} />
-          <Route exact path="/aboutus" Component={Aboutus} />
+          <Route exact path="Expense-Tracker-using-React-/analysis" Component={() => { return <Analysis lists={tableitems} /> }} />
+          <Route exact path="Expense-Tracker-using-React-/aboutus" Component={Aboutus} />
         </Routes>
       </div>
     </>
