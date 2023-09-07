@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Expense-Tracker-using-React-/static/css/main.34fcb076.css",
+    "main.js": "/Expense-Tracker-using-React-/static/js/main.b00891b7.js",
+    "index.html": "/Expense-Tracker-using-React-/index.html",
+    "main.34fcb076.css.map": "/Expense-Tracker-using-React-/static/css/main.34fcb076.css.map",
+    "main.b00891b7.js.map": "/Expense-Tracker-using-React-/static/js/main.b00891b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34fcb076.css",
+    "static/js/main.b00891b7.js"
+  ]
+}
