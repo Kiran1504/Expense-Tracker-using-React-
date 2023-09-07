@@ -12,19 +12,19 @@ export default function Navbar() {
       <div>
         <ul className=" flex min-[425px]:flex-row flex-col mx-auto z-10 max-[425px]:top-5 relative justify-center align-middle max-[425px]:h-40  font-semibold sm:h-14 md:h-16 sm: sm:text-lg">
           <li className=" m-4 max-[425px]:m-3 max-[425px]:mx-auto  hover:-translate-y-1  z-10 relative">
-            <NavLink to="/" className={classes}>Home</NavLink>
+            <NavLink to="Expense-Tracker-using-React-/" className={classes}>Home</NavLink>
           </li>
 
           <li className="m-4 max-[425px]:m-3 max-[425px]:mx-auto hover:-translate-y-1  z-10 relative ">
-            <NavLink to="/budget" className={classes}>Budget</NavLink>
+            <NavLink to="Expense-Tracker-using-React-/budget" className={classes}>Budget</NavLink>
           </li>
 
           <li className="m-4 max-[425px]:m-3 max-[425px]:mx-auto hover:-translate-y-1  z-10 relative ">
-            <NavLink to="/analysis" className={classes}>Analysis</NavLink>
+            <NavLink to="Expense-Tracker-using-React-/analysis" className={classes}>Analysis</NavLink>
           </li>
 
           <li className="m-4 max-[425px]:m-3 max-[425px]:mx-auto hover:-translate-y-1  z-10 relative ">
-            <NavLink to="/aboutus" className={classes}>About US</NavLink>
+            <NavLink to="Expense-Tracker-using-React-/aboutus" className={classes}>About US</NavLink>
           </li>
 
         </ul>
