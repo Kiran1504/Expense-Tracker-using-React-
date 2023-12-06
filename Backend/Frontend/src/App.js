@@ -1,16 +1,16 @@
-import Header from "./Header";
-import Navbar from "./Navbar";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Budget from "./Budget";
+import Budget from "./components/Budget";
 import { useEffect, useState } from "react";
-import Aboutus from "./Aboutus";
-import Analysis from "./Analysis";
+import Aboutus from "./components/Aboutus";
+import Analysis from "./components/Analysis";
 import { useMediaQuery } from "@mui/material";
-import Register from "./Register";
-import Login from "./Login";
+import Register from "./components/Register";
+import Login from "./components/Login";
 // import Logout from "./Logout";
-import { ExpenseProvider, useExp } from "../context"
-import Home from "./Home";
+import { ExpenseProvider, useExp } from "./context"
+import Home from "./components/Home";
 
 function App() {
   const [email, setEmail] = useState("");
